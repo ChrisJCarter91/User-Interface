@@ -64,3 +64,164 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	border: 2px solid red;
+	width: 1000px;
+	margin: auto;
+}
+
+header {
+	display: flex;
+	align-items: center;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-evenly;
+	flex-grow: 1;
+}
+
+.title {
+	display: flex;
+	justify-content: flex-end;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+h1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 450%;
+}
+
+
+.topParagraphs {
+display: flex;
+justify-content: space-evenly;
+border-top: 2px solid black;
+}
+
+.features {
+	flex-grow: 0;
+	width: 45%;
+}
+
+.about {
+	flex-grow: 0;
+	width: 45%;
+}
+
+.mid {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	border-bottom: 2px solid black;
+}
+
+.services {
+	flex-grow: 0;
+	width: 30%;
+}
+
+.product {
+	flex-grow: 0;
+	width: 30%;
+}
+
+.vision {
+	flex-grow: 0;
+	width: 30%;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30%;
+	height: 125px;
+}
+
+.address {
+	width: 55%
+}
+
+.phone {
+	width: 45%;	
+}
+
+.email {
+	width: 45%;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+/* SERVICES */
+
+.servicesTitle {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 1000px;
+}
+
+.ourServices {
+	width: 1000px;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+.boxes {
+	height: 800px; 
+	width: 1000px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.box-item {
+	border: 1px solid black;
+	background-color: rgb(230, 230, 230);
+    width: 400px;
+	height: 200px;
+	padding: 15px;
+}
+
+.serviceFacts {
+	height: 425px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: space-between;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* border: 2px solid blue; */
+	padding: 5px;
+}
+
+.bottom-section {
+	/* border: 1px solid black; */
+    width: 400px;
+	height: 200px;
+	padding: 15px;
+}
